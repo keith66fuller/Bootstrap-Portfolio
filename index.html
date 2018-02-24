@@ -2,15 +2,10 @@
 <html lang="en">
 <head>
   <title>Keith Fuller</title><!-- Required meta tags -->
-  <!-- <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <style>
-  * { border: 1px darkgray solid; background-color: white; }
-  </style>
-</head>
-<body>
-  <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
   <link crossorigin="anonymous"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -23,13 +18,21 @@
   <!-- Site CSS - mainly for colors/background -->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
+  <style>
+  /* * { border: 1px darkgray solid; background-color: white; } */
+  /* * { border: 1px darkgray solid; } */
+  </style>
+</head>
+<body>
+
   <div class="container">
-    <!-- Row 1 -->
-    <div class="row">
+
+    <!-- Top Row -->
+    <div class="row top_row">
       <div class="col-1"></div>
       <!-- Name -->
       <div class="col-3 namecol">
-        <h1 class="name">Keith Fuller</h1>
+        <h2 class="name">Keith Fuller</h2>
       </div>
       <div class="col-4"></div>
       <!-- Nav -->
@@ -38,13 +41,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="./index.html">About</a>
+                  <a class="nav-link nl" href="./index.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                  <a class="nav-link nl mid_nl" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact</a>
+                  <a class="nav-link nl" href="./contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -52,39 +55,43 @@
       </div>
       <div class="col-1"></div>
     </div>
-    <!-- Row 2 -->
-    <div class="row middle_content_outer">
-      <div class="col-1"></div><!-- Column 1 -->
-      <div class="col-10">     <!-- Column 2 -->
-        <div class="row"><!-- Row 1 -->
+
+    <!-- Middle Row -->
+    <div class="row middle_row">
+      <div class="col-1"></div><!-- Column 1 Padding-->
+      <div class="col-5">      <!-- Column 2 Content-->
           <h1>About Me</h1>
-        </div>
-        <div class="row"><!-- Row 2 -->
-            <div class="col-7" style>
-              <img alt="Keith Fuller" src="assets/images/keith_headshot_small.jpg" style="float: left;">
-              <p>I'm a Network Engineer in the Greater Chicago area. I've worked in IT for 20 years. Prior to that, I maintained locomotive electrical systems for a commuter railroad and serviced tower cranes on a dam project in Mexico. My first job
-              out of High School was a nuclear propulsion plant operator on a U. S. Navy submarine.</p>
-              <br>
-              <p>I play anywhere from 10 to 70 sudoku games a day, depending on my mood. My regexes build more regexes before lunch than you build all day.</p>
-            </div>
-            <div class="col-5">
+          <div class="col-7" style>
+            <img alt="Keith Fuller" src="assets/images/keith_headshot_small.jpg" style="float: left;">
+            <p>I'm a Network Engineer in the Greater Chicago area. I've worked in IT for 20 years. Prior to that, I maintained locomotive electrical systems for a commuter railroad and serviced tower cranes on a dam project in Mexico. My first job
+            out of High School was a nuclear propulsion plant operator on a U. S. Navy submarine.</p>
+            <br>
+            <p>I play anywhere from 10 to 70 sudoku games a day, depending on my mood. My regexes build more regexes before lunch than you build all day.</p>
+          </div>
+
+      </div>
+      <div class="col-5">      <!-- Column 3 Content-->
+        <div class="row"><!-- Row 1 -->
+        <div class="row middle_content"><!-- Row 2 -->
+
               <h1>Connect with Me</h1>
               <div>
                 <a href="http://github.com/keith66fuller"><img alt="github" border="0" src="assets/images/if_github_square_black_107109.png"></a>
                 <a href="https://www.linkedin.com/in/keith66fuller"><img alt="linkedin" border="0" src="assets/images/if_linkedin_square_color_107091.png"></a>
                 <a href="https://stackoverflow.com/users/9366929/keith-fuller?tab=profile"><img alt="stackoverflow" border="0" src="assets/images/if_overflow_334695.png"></a>
               </div>
-            </div>
+
         </div>
       </div>
-      <div class="col-1"></div><!-- Column 3 -->
+      <div class="col-1"></div><!-- Column 4 Padding -->
     </div>
-    <!-- Row 3 -->
-    <div class="row fixed-bottom">
-      <div class="col-12 text-center">
-        Copyright 2018 Keith Fuller
-      </div>
+
+    <!-- Bottom Row -->
+    <div class="row bottom_row fixed-bottom">
+      <div class="col-12 text-center">Copyright 2018 Keith Fuller</div>
     </div>
+
   </div>
+
 </body>
 </html>
