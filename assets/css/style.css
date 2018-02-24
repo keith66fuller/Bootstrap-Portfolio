@@ -71,6 +71,8 @@ html,body {
 body {
 }
     .container-fluid {
+        background-image: url("../images/background.gif");
+        background-color: #ebebebeb;
     }
         .top_row {
             border-bottom: 2px #cccccc solid;
@@ -101,11 +103,11 @@ body {
             }
             
         .middle_row {
+            
             background-image: url("../images/background.gif");
             background-color: #ebebebeb;
         }
         .middle_content {
-            margin: auto;
             margin-bottom: auto;
             color: #4aaaa5;
             background-color: #ffffff;
