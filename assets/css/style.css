@@ -70,8 +70,7 @@ html,body {
 
 body {
 }
-    .container {
-        width: 100%;
+    .container-fluid {
     }
         .top_row {
             border-bottom: 2px #cccccc solid;
@@ -106,6 +105,8 @@ body {
             background-color: #ebebebeb;
         }
         .middle_content {
+            margin: auto;
+            margin-bottom: auto;
             color: #4aaaa5;
             background-color: #ffffff;
         }
