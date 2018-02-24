@@ -48,7 +48,7 @@ body {
     background-color: #4aaaa5;
     align-content: center;
 }
-nav {
+/* nav {
     width:  75%;
     height: 100%;
     padding: 25px;
@@ -57,7 +57,7 @@ nav {
     align-content: space-between;
     justify-content: flex-end;
 
-}
+} */
 
 .nav_link {
     margin: 10px;
@@ -72,8 +72,8 @@ nav {
     padding-right: 20px;
 }
 .middle_content_outer {
-    flex: 1 0 auto;
-    width:  100%;
+    /* flex: 1 0 auto;
+    width:  100%; */
     background-image: url("../images/background.gif");
     background-color: #ebebebeb;
 }
